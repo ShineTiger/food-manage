@@ -1,0 +1,47 @@
+/* App */
+.App {}
+
+/* editor */
+
+.ManageEditor {
+  border: 1px solid gray;
+  text-align: center;
+  padding: 20px;
+}
+
+.ManageEditor input,
+textarea {
+  margin-bottom: 20px;
+
+}
+
+.ManageEditor input {
+  padding: 10px;
+}
+.ManageEditor textarea {
+  padding: 10px;
+  height: 150px;
+}
+
+.ManageEditor select {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.ManageEditor button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.ManageEditor-inner{
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.ManageEditor-inner * {
+  flex-basis: 220px;
+
+}
+
